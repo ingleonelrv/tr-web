@@ -6,6 +6,7 @@ import createMuiTheme from "@material-ui/core/styles/createMuiTheme";
 import withStyles from "@material-ui/core/styles/withStyles";
 //components
 import Navbar from "./Components/Navbar";
+import CompressNavbar from "./Components/CompressNavbar";
 import Topbar from "./Components/Topbar";
 import themeFile from "./Util/theme";
 import Home from "./Components/Home";
@@ -13,6 +14,8 @@ import About from "./Components/About";
 import Services from "./Components/Services";
 import Experience from "./Components/Experience";
 import Contact from "./Components/Contact";
+//media query
+import useMediaQuery from "@material-ui/core/useMediaQuery";
 
 const theme = createMuiTheme(themeFile);
 const styles = (theme) => ({
@@ -22,10 +25,11 @@ const styles = (theme) => ({
   },
 });
 function App() {
+  const isActive = useMediaQuery("(max-width:600px)");
   return (
     <MuiThemeProvider theme={theme}>
       <Topbar />
-      <Navbar />
+      {isActive ? <CompressNavbar /> : <Navbar />}
       <div className="container">
         <Home />
         <About />

@@ -62,7 +62,7 @@ function Services(props) {
       <Container maxWidth="md" className={classes.aboutInnerContainer}>
         <div className={classes.servicesList}>
           <Typography variant="h5" gutterBottom>
-            Transporte de Carga Nacional e Internacional
+            Transporte de Carga terrestre Nacional e Internacional
           </Typography>
           <Grid container spacing={1} className={classes.gridContainer}>
             <Grid item xs={isActive ? 12 : 4} className={classes.gridChild}>

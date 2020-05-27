@@ -56,8 +56,9 @@ function Home(props) {
                 Transporte Rodriguez V.
               </Typography>
               <Typography variant="body1" gutterBottom>
-                Transportamos su mercancia a cualquier puerto o pais
-                Centroamericano de forma segura y eficiente.
+                Transportamos su mercancia en furgones y/o contenedores a
+                cualquier puerto o pais Centroamericano de forma segura y
+                eficiente.
               </Typography>
               <Button
                 variant="contained"
@@ -75,16 +76,6 @@ function Home(props) {
               </Button>
             </div>
           </Grid>
-          {/* <Grid item xs={8}>
-            <div className={classes.paper}>
-              <img
-                src={image}
-                className={classes.homeImage}
-                alt="furgon cabezal transporte"
-                height="580px"
-              />
-            </div>
-          </Grid> */}
         </Grid>
       </div>
     </Container>

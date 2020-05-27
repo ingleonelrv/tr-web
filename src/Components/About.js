@@ -38,15 +38,15 @@ function About(props) {
             Acerca de nosotros
           </Typography>
           <Typography variant="body1" gutterBottom>
-            Somos una empresa de transporte de carga pesada nacional e
-            internacional con muchos años de experiencia en el sector. Nuestros
-            servicios y experiencia abarcan pero no se limitan a transportar
-            mercancia en contenedores o por medio de furgones.
+            Somos una empresa de transporte de carga terrestre, nacional e
+            internacional, con muchos años de antigüedad en el sector. Nuestros
+            servicios y experiencia abarcan pero no se limitan al transporte
+            terrestre de mercancia en contenedores o por medio de furgones.
           </Typography>
           <br />
           <Typography variant="body1" gutterBottom>
-            Contamos con una amplia flota de equipos para satisfacer, de forma
-            eficiente, la demanda de nuestros clientes.
+            Contamos con una amplia flota de cabezales y furgones para
+            satisfacer, de forma eficiente, la demanda de nuestros clientes.
           </Typography>
           <Button variant="outlined" className={classes.button}>
             <a

@@ -99,8 +99,8 @@ function Experience(props) {
                   <ol>
                     <li>Equipo altamente calificado y experimentado.</li>
                     <li>
-                      Normas de seguridad y monitoreo estricto de equipos y
-                      carga.
+                      Normas de seguridad y monitoreo (GPS) estricto de equipos
+                      y carga.
                     </li>
                     <li>
                       Mantenimiento preventivo cada viaje para mayor eficiencia.

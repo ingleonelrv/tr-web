@@ -52,8 +52,8 @@ function Contact(props) {
                 Transporte Rodriguez V.
               </Typography>
               <Typography variant="body1" gutterBottom>
-                Transportamos su mercancia a cualquier puerto o pais
-                Centroamericano de forma segura y eficiente.
+                Transporte de carga terrestre Nacional e Internacional en
+                furgones y contenedores.
               </Typography>
               {/* <img className={classes.logo} src={logo} alt="Logo" /> */}
             </Grid>
